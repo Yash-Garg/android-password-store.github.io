@@ -1,22 +1,24 @@
 /*reset.css*/
+
 /* RESETS */
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 html {
   font: 62.5% / 1.15 'Poppins', sans-serif;
 }
-h1,
-h2 {
+
+h1, h2 {
   margin: 0;
 }
+
 ul {
   list-style: none;
   padding: 0;
 }
+
 button {
   border: none;
   margin: 0;
@@ -31,27 +33,27 @@ button {
   -moz-osx-font-smoothing: inherit;
   -webkit-appearance: none;
 }
+
 button::-moz-focus-inner {
   border: 0;
 }
-button,
-input,
-optgroup,
-select,
-textarea {
+
+button, input, optgroup, select, textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
-button,
-input {
+
+button, input {
   /* 1 */
   overflow: visible;
 }
+
 input[type="text"] {
   border-radius: 0;
 }
+
 body {
   width: 100%;
   max-width: 68rem;
@@ -60,6 +62,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
 @media screen and (min-width: 620px) {
   body {
     font-size: 1.9rem;
@@ -67,8 +70,9 @@ body {
   }
 }
 
-a{
+a {
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
 }
+
 /*END RESETS*/

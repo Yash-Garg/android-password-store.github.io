@@ -9,13 +9,12 @@ import Navbar from "@/components/Navbar.vue";
 export default {
   components: {
     HelloWorld,
-    Navbar
-  }
+    Navbar,
+  },
 };
 </script>
 
 <style>
-
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
